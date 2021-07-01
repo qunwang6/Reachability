@@ -32,7 +32,8 @@
 //关闭通知并释放对象
 -(void)dealloc{
     [self.reachability stopNotifier];
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    //[[NSNotificationCenter defaultCenter] removeObserver:self];
+    [NSNotificationCenter.defaultCenter removeObserver:self name:kReachabilityChangedNotification object:nil];
 }
 
 //网络变化
