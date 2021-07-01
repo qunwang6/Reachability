@@ -47,12 +47,14 @@
     if ([NetWorkTool isEnableWIFI]) {
         NSLog(@"当前网络为Wi-Fi网络");
         [MBProgressHUD showInfo:@"当前网络为Wi-Fi网络" toView:self.view];
-    }else if ([NetWorkTool isEnableWWAN]){
+    } else if ([NetWorkTool isEnableWWAN]){
         NSLog(@"当前网络为移动网络");
         [MBProgressHUD showInfo:@"当前网络为移动网络" toView:self.view];
-    }else{
+    } else if ([NetWorkTool isNoNetWork]){
         NSLog(@"没网络连接");
         [MBProgressHUD showInfo:@"没网络连接" toView:self.view];
+    } else {
+        [MBProgressHUD showInfo:@"当前网络异常" toView:self.view];
     }
 }
 

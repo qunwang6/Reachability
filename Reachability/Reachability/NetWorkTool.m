@@ -21,4 +21,9 @@
     return [[Reachability reachabilityForInternetConnection] currentReachabilityStatus] == ReachableViaWWAN;
 }
 
+//检查是否有网络
++(BOOL)isNoNetWork{
+    return [[Reachability reachabilityForInternetConnection] currentReachabilityStatus] == NotReachable;
+}
+
 @end

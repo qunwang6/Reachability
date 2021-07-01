@@ -9,4 +9,5 @@
 @interface NetWorkTool: NSObject
 + (BOOL)isEnableWIFI;
 + (BOOL)isEnableWWAN;
++(BOOL)isNoNetWork;
 @end
