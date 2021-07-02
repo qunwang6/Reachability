@@ -19,6 +19,7 @@
 		A6EA0769268D524000076E79 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6EA0766268D524000076E79 /* MBProgressHUD.bundle */; };
 		A6EA076D268D527200076E79 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA076C268D527200076E79 /* Reachability.m */; };
 		A6EA0770268D52A400076E79 /* NetWorkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA076F268D52A400076E79 /* NetWorkTool.m */; };
+		A6EA077F268EFB4B00076E79 /* ReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA077E268EFB4B00076E79 /* ReachabilityManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		A6EA076C268D527200076E79 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		A6EA076E268D529700076E79 /* NetWorkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTool.h; sourceTree = "<group>"; };
 		A6EA076F268D52A400076E79 /* NetWorkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTool.m; sourceTree = "<group>"; };
+		A6EA077D268EFB3300076E79 /* ReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReachabilityManager.h; sourceTree = "<group>"; };
+		A6EA077E268EFB4B00076E79 /* ReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityManager.m; sourceTree = "<group>"; };
 		CAD4AD6DB661F24A9218BA64 /* Pods-Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reachability.release.xcconfig"; path = "Target Support Files/Pods-Reachability/Pods-Reachability.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +125,8 @@
 				A6EA076C268D527200076E79 /* Reachability.m */,
 				A6EA076E268D529700076E79 /* NetWorkTool.h */,
 				A6EA076F268D52A400076E79 /* NetWorkTool.m */,
+				A6EA077D268EFB3300076E79 /* ReachabilityManager.h */,
+				A6EA077E268EFB4B00076E79 /* ReachabilityManager.m */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				A6EA0770268D52A400076E79 /* NetWorkTool.m in Sources */,
 				A6EA0768268D524000076E79 /* MBProgressHUD+NJ.m in Sources */,
 				A6EA074D268D51D400076E79 /* AppDelegate.m in Sources */,
+				A6EA077F268EFB4B00076E79 /* ReachabilityManager.m in Sources */,
 				A6EA075E268D51D500076E79 /* main.m in Sources */,
 				A6EA076D268D527200076E79 /* Reachability.m in Sources */,
 				A6EA0750268D51D400076E79 /* SceneDelegate.m in Sources */,

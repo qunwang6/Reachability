@@ -19,13 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+
     //注册网络状态通知
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(netWorkStatusChange) name:kReachabilityChangedNotification object:nil];
-    
+
     //获取Reachability对象
     self.reachability = [Reachability reachabilityForInternetConnection];
-    
+
     //开始监听网络变化
     [self.reachability startNotifier];
 }
@@ -60,3 +60,31 @@
 
 
 @end
+
+
+//没有监听
+//#import "ViewController.h"
+//#import "ReachabilityManager.h"
+//#import "MBProgressHUD+NJ.h"
+//
+//@interface ViewController ()
+//@end
+//
+//@implementation ViewController
+//
+//- (void)viewDidLoad {
+//    [super viewDidLoad];
+//    // Do any additional setup after loading the view.
+//
+//    [ReachabilityManager.shareManager start];
+//    if (!ReachabilityManager.shareManager.isConnected) {
+//        [MBProgressHUD showInfo:@"没网络连接" toView:self.view];
+//    } else {
+//        [MBProgressHUD showInfo:@"网络已连接" toView:self.view];
+//    }
+//}
+//
+//-(void)dealloc{
+//
+//}
+//@end
